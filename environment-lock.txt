@@ -1,0 +1,6 @@
+Environment lock (minimal reproducibility record)
+Python: 3.11
+pandas==2.2.3
+
+For a full machine-specific lock, create a virtual environment and run:
+python -m pip freeze > environment-lock.txt
